@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('pt_sans-regular-webfont.eot');
+    src: local('☺'), url('pt_sans-regular-webfont.woff') format('woff'), url('pt_sans-regular-webfont.ttf') format('truetype'), url('pt_sans-regular-webfont.svg#webfontXXmgsOEo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'PTSansBold';
+    src: url('pt_sans-web-bold-webfont.eot');
+    src: local('☺'), url('pt_sans-web-bold-webfont.woff') format('woff'), url('pt_sans-web-bold-webfont.ttf') format('truetype'), url('pt_sans-web-bold-webfont.svg#PTSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AG_FuturaRegular';
+    src: url('agfuturaregular.eot');
+    src: url('agfuturaregular.eot') format('embedded-opentype'),
+         url('agfuturaregular.woff') format('woff'),
+         url('agfuturaregular.ttf') format('truetype'),
+         url('agfuturaregular.svg#AG_FuturaRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'a_FuturaOrtoBold';
+    src: url('afuturaortobold.eot');
+    src: url('afuturaortobold.eot') format('embedded-opentype'),
+         url('afuturaortobold.woff') format('woff'),
+         url('afuturaortobold.ttf') format('truetype'),
+         url('afuturaortobold.svg#a_FuturaOrtoBold') format('svg');
+}
+
+@font-face {
+    font-family: 'intro_';
+    src: url('intro-webfont.eot');
+    src: url('intro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('intro-webfont.woff') format('woff'),
+         url('intro-webfont.ttf') format('truetype'),
+         url('intro-webfont.svg#intro_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

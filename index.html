@@ -1,226 +1,329 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!doctype html>
+<!--[if lt IE 7 ]> <html lang="ru" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="ru" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="ru" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="ru" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="ru"> <!--<![endif]-->
 <head>
+	<meta charset="utf-8">
+	<meta name="robots" content="{if $page.noindex}none{else}all{/if}">
+	<meta name="description" content="{$page.description}">
+	<meta name="keywords" content="{$page.keywords}">
+	<title>Шаблон</title>
+	<link href="styles/styles.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="scripts/html5shiv.js"></script>
+	<![endif]-->
+	<!--[if lt IE 10]>
+	<link href="styles/style_ie_7_8_9.css" rel="stylesheet" type="text/css">
+	<![endif]-->
+	<!--{$common_js}-->
+    <script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="scripts/mobilyslider.js"></script>
+	<script type="text/javascript" src="scripts/scripts.js"></script>
+	<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.3.1-min.js"></script>
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Insta Samara мгновенные фото для вашего праздника.</title>
-<meta name="description" content="Insta Samara мгновенные фото для вашего праздника.">
-<meta name="keywords" content="Instagram, Print, фото, мгновенные фото">
-<meta name="author" content="sPolispastom">
-
-<style type="text/css">
-
-body {
-	margin: 0px;
-	min-width: 768px;
-	min-height:768;
-}
-.cap {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	background-color: #ACD9FF;
-	position:fixed;
-	right: 0px;
-	left: 0px;
-	min-width:768px;
-	height:75px;
-	z-index: 1070;
-	opacity: 0.7;
-}
-.left
-{
-	position:fixed;
-	left:0px;
-}
-.right
-{
-	position:fixed;
-	right: 0px;
-}
-.pict
-{
-	margin: 12px;
-} 
-#CapTelNumber
-{
-	color:#2F3030;
-	font-size:18pt;
-	font-family: Arial, Helvetica, sans-serif;
-	margin-top: 26px;
-	margin-right:12px;
-	float:left;
-}
-.block1
-{
-	right: 0px;
-	left: 0px;
-	min-width:768px;
-	background:#F9FCFF;
-	z-index:0;
-}
-.block2
-{
-	right: 0px;
-	left: 0px;
-	min-width:768px;
-	background:#ACD9FF;
-	color:#FFF;
-	z-index:0;
-}
-.content
-{
-	width:900px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#abautPage
-{
-	height:168px;
-	text-align: center;
-	padding-top: 200px;
-	padding-bottom: 200px;
-}
-.hendle
-{
-	text-align: center;
-	padding:20px;
-}
-.wide
-{
-	width:900px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.rowItem
-{
-	width:300px;
-	height: 100px;
-	margin:0px;
-	padding-top:25px;
-	padding-bottom:25px;
-	position: absolute;
-}
-.rowItemRightText
-{
-	width:180px;
-	margin-top:15px;
-	margin-bottom:auto;
-	float: right;
-}
-h4
-{
-	font-size:18px;
-}
-</style>
 </head>
-<body>
+
+<body class="futura">
+
+<div class="wrapper" id="body">
+	<header class="header res">
+		<div class="activity">АРЕНДА INSTAPRINTER</div>
+		<a href="#a" class="intro site_name"><span class="georgia">InstaPrinter</span>Samara</a>
+		<div class="phone_top pt_bold">
+		+7 987 950 03 92
 	
-<div  class="cap">
-    	<div class="left">
-   			<h1  style=" color:#2F3030; margin-left:20px; margin-top:22px;">Insta Samara</h1>
-         </div>
-       <div class="right">
-             	<span id="CapTelNumber">+7 917 033 36 13</span>
-         	<a href="http://vk.com"><img class="pict" src="images/vk.png" width="50" height="50" alt="VK" /></a>
-         	<a href="http://instagram.com"><img class="pict" src="images/instagram.png" width="50" height="50" alt="Instagram" /></a>
-         	<a href="http://twitter.com"><img class="pict" src="images/twitter0.png" width="50" height="50" alt="Tritter" /></a>
-    </div>
-</div>
+				
+		</div>
 
-<div class=" block1">
-	<div class="content">
-<div  id="abautPage"><h1>Instagram Samara</h1>
-            <h2>Мгновенное фото для вашего праздника</h2> 
+    </header><!--header-->
+    <div class="navigation_top res">
+    	<nav>
+    		<ul class="upm ul_null clear_self">
+    			<li><a href="#a" class="button" data-rel="id1">НАШИ УСЛУГИ</a></li>
+    			<li><a href="#a" class="button" data-rel="id2">НАШИ ЦЕНЫ</a></li>
+    			<li><a href="#a" class="button" data-rel="id3">О НАС</a></li>
+    			<li><a href="#a" class="button" data-rel="id4">ГАЛЕРЕЯ</a></li>
+    		</ul>
+    	</nav>
+    	<div class="clear_self">
+	    	<div class="top_slider slider slider3">
+	    		<ul class="slide_cont ul_null sliderContent">
+	    			<li class="item">
+	    				<img src="files/im1.jpg" alt="">
+	    				<div class="desc">
+	    					ВОСПОЛЬЗУЙСЯ УНИКАЛЬНЫМ <br>СЕРВИСОМ ПРЯМО СЕЙЧАС
+	    				</div>
+	                    
+	    			</li>
+	    			<li class="item">
+	    				<img src="files/im1.jpg" alt="">
+	    				<div class="desc">
+	    					ПРИ ЗАКАЗЕ КАБРИОЛЕТА У НАС ВЫ <br>ЭКОНОМИТЕ ДО 20% БЮДЖЕТА
+	    				</div>
+	                    <div class="slider-form pie_mod futura">
+	                        <div class="slider-form-name">
+	                            ЗАКАЗАТЬ УСЛУГУ <br>ПРЯМО СЕЙЧАС
+	                        </div>
+							<form action="index1.php" method="post">
+	                        <input type="text" name="name" class="pie pt_sans slf-first-border" placeholder="Введите Ваше имя*">
+	                        <input type="text" name="phone" class="pie pt_sans" placeholder="Введите Ваш телефон*">
+	                        <textarea name="addres" class="pie pt_sans slf-last-border" placeholder="Введите Ваш email*"></textarea>
+	                        <input type="submit" value="">
+							</form>
+	                    </div>
+	    			</li>
+	    			<li class="item">
+	    				<img src="files/im1.jpg" alt="">
+	    				<div class="desc">
+	    					ПРИ ЗАКАЗЕ КАБРИОЛЕТА У НАС ВЫ <br>ЭКОНОМИТЕ ДО 20% БЮДЖЕТА
+	    				</div>
+	                    <div class="slider-form pie_mod futura">
+	                        <div class="slider-form-name">
+	                            ЗАКАЗАТЬ УСЛУГУ <br>ПРЯМО СЕЙЧАС
+	                        </div>
+	                        <form action="index1.php" method="post">
+	                        <input type="text" name="name" class="pie pt_sans slf-first-border" placeholder="Введите Ваше имя*">
+	                        <input type="text" name="phone" class="pie pt_sans" placeholder="Введите Ваш телефон*">
+	                        <textarea name="addres" class="pie pt_sans slf-last-border" placeholder="Введите Ваш email*"></textarea>
+	                        <input type="submit" value="">
+							</form>
+	                    </div>
+	    			</li>
+	    		</ul>
+	    	</div>
+    	</div>
+    </div>
+
+	<div class="container clear_self res">
+
+
+        <div class="this-box2 clear_self">
+
+            <div class="this-box2-left">
+                <div class="futura">Почему <span>НАС <br>ВЫБИРАЮТ</span></div>
+            </div>
+
+            <div class="this-box2-right futura">
+                <div class="item">Мы знаем свое дело и выполним свою работу на <br>самом высоком уровне</div>
+                <div class="item">Весь комплекс услуг для проведения вашего торжества</div>
+                <div class="item">С вами будет работать менеджер от  самого начала <br>организации и до завершения вашего мероприятия</div>
+                <div class="item">Наши цены полнстью прозрачны и фиксированы, <br>никаких лишних расчетов.</div>
+                <div class="item">Опытные менеджеры организовавшие и выполнившие <br>ни один десяток торжеств</div>
+            </div>
+
         </div>
-  </div>
-</div>
 
-<div class=" block2">
-	<div class="content">
-    	<img src="images/touchid_hero_large.png" width="371" height="438" alt="test"  />
-    </div>
-</div>
+       
+        <div class="this-box4">
+            <div class="this-box4_inside">
+            	<img src="files/car-cap.jpg" alt="">
+            </div>
+        </div>
+<div class="res">
+        <div class="this-box5">
+            
+            
 
-<div class=" block1">
-	<div class="content">
-<div class="hendle">
-        	<h2>Огромный выбор шаблонов и персональное бреднирование фото.</h2>
-   		</div>
-   </div>
-  <div class="content">
-        <img class="pict" src="images/patterns/0.jpeg" width="150" height="225" alt="pattern0" />
-        <img class="pict" src="images/patterns/1.jpeg" width="150" height="225" alt="pattern0" />
-        <img class="pict" src="images/patterns/2.jpeg" width="150" height="225" alt="pattern0" />
-        <img class="pict" src="images/patterns/3.jpeg" width="150" height="225" alt="pattern0" />
-        <img class="pict" src="images/patterns/4.jpeg" width="150" height="225" alt="pattern0" />
-    </div>
-</div>
+        <div class="box6" id="id2">
+             НАШИ ЦЕНЫ<br>Аренда принтера - 5000 рублей / час
+        </div>
 
-<div class=" block2">
-		<div class="content" style="padding-top:50px;">
-        		<div class="rowItem">
-                		<img  style="float:left;" src="images/h1.png" width="100" height="100" alt="#" />
-                        <h4 class="rowItemRightText">Ваш уникальных хэштэг на каждое мероприятие</h4>
-            	</div>
-                
-                <div class="rowItem" style="margin-left:300px;">
-                		<img  style="float:left;" src="images/b1.png" width="100" height="100" alt="#" />
-                        <h4 class="rowItemRightText" style="margin-top:26px;">Уникальный внешний вид</h4>
-            	</div>
-                
-                <div class="rowItem" style="margin-left:600px; position: relative;">
-                		<img  style="float:left;" src="images/t1.png" width="100" height="100" alt="#" />
-                        <h4 class="rowItemRightText">Высокая скорость монтажа и демонтажа оборудования </h4>
-            	</div>
-  		</div>
-<div class="  content" style="padding-bottom:50px;">
-        		<div class="rowItem" style="margin-left:100px; width:370px;">
-                		<img  style="float:left;" src="images/ok1.png" width="100" height="100" alt="#" />
-                        <h4 class="rowItemRightText"  style="width:240px;">Контроль качества на каждом этапе подготовки <br/>к проекту</h4>
-            	</div>
-                
-                <div class="rowItem" style="margin-left:500px; position:relative; width:370px;">
-                		<img  style="float:left;" src="images/many1.png" width="100" height="100" alt="#" />
-                        <h4 class="rowItemRightText" style="width:250px; margin-top:26px;">Гибкое ценообразование, прозрачность взаиморасчетов</h4>
-            	</div>
-  		</div>
-</div>        
+       
 
-     
-<div class=" block1" style="height:500px;">
-	<div class=" content" style="padding:25px;">
-        		<div class="rowItem" style="margin-left:100px; width:370px;">
-                		<img  style="float:left;" src="images/call2.png" width="100" height="100" alt="#" />
-                        <h4 class="rowItemRightText"  style="width:240px;">
-                        +7 912 345 67 89<br/>
-                        +7 912 345 67 89<br/>
-                        +7 912 345 67 89
-                        </h4>
-            	</div>
-                
-                <div class="rowItem" style="margin-left:500px; position:relative; width:370px;">
-                		<img  style="float:left;" src="images/mail2.png" width="100" height="100" alt="#" />
-                        <h4 class="rowItemRightText" style="width:250px;">
-                        <a  href="mailto:mail@gmail.com">mail@gmail.com</a><br/>
-                        <a  href="mailto:mail@gmail.com">mail@gmail.com</a><br/>
-                        <a  href="mailto:mail@gmail.com">mail@gmail.com</a></h4>
-            	</div>
-         </div>
-		<div class="content" style="padding-bottom:50px;">
-        		<div class="rowItem" style="width:150px;">
-                		<a href="http://vk.com"><img  style="float:left;" src="images/vk.png" width="150" height="150" alt="#" /></a>
-            	</div>
-                
-                <div class="rowItem" style="margin-left:300px; width:150px;">
-                		<a href="http://instagram.com"><img  style="float:left;" src="images/instagram.png" width="150" height="150" alt="#" /></a>
-            	</div>
-                
-                <div class="rowItem" style="margin-left:600px; width:150px; position: relative;">
-                		<a href="http://twitter.com"><img  style="float:left;" src="images/twitter0.png" width="150" height="150" alt="#" /></a>
-                        
-            	</div>
-  		</div>
+
+
+
+		<section class="cont_box clear_self">
+
+			<div class="show_block">
+				<div class="disc">
+					<div class="line"></div>
+					<div class="line bot"></div>
+					<span class="txt futura_bold">
+						<i class="georgia">опыт работы</i>БОЛЕЕ 3х ЛЕТ
+					</span>
+				</div>
+				<div class="disc disc2">
+					<div class="line"></div>
+					<div class="line bot"></div>
+					<span class="txt futura_bold">
+						<i class="georgia">гарантия</i>КАЧЕСТВА
+					</span>
+				</div>
+				<div class="disc disc3">
+					<div class="line"></div>
+					<div class="line bot"></div>
+					<span class="txt futura_bold">
+						ВЫГОДА<i class="georgia">для каждого</i>
+					</span>
+				</div>
+			</div>
+			<div class="text_desc" id="id3">
+				<h1 class="futura_bold">О НАС:</h1>
+				<div class="georgia">
+					Наше агентство имеет огромнейший опыт, мы выполняем свою работу качественно и красиво. 
+					<span class="h2">Почему именно мы?</span> Наша команда, работает только на положительный результат, опыт который мы приобрели, делает наши услуги выгодными и подходящими, для любого заказчика. Мы гарантируем выполнение всех обговоренных, и возникших в процессе вопросов, это наша работа, и она нам нравится, поэтому будьте в нас уверены.. Качество и результат, вот наши постоянные задачи, которые мы ставим перед собой, и успешно выполняем.
+				</div>
+			</div>
+		</section>
+		<div class="sl_2">
+
+		<div class="this-box4">
+            <div class="this-box4_inside">
+            	<img src="files/im3.jpg" alt="">
+            </div>
+        </div>
+
+		<div class="container clear_self res">
+			<section class="cont_box c_b2 clear_self">
+				<h1 class="sp_1 futura_bold">КАК ЭТО РАБОТАЕТ?</h1>
+				<div class="show_block">
+					<div class="disc blue">
+						<div class="line"></div>
+						<div class="line bot"></div>
+						<span class="txt futura_bold">
+							<i class="georgia">гость делает фото</i> 
+						</span>
+					</div>
+					<div class="disc blue disc2">
+						<div class="line"></div>
+						<div class="line bot"></div>
+						<span class="txt futura_bold">
+							<i class="georgia">пишет специальный хэштэг </i>
+						</span>
+					</div>
+					<div class="disc blue disc3">
+						<div class="line"></div>
+						<div class="line bot"></div>
+						<span class="txt futura_bold">
+							<i class="georgia">загружает его в Instagram</i>
+						</span>
+					</div>
+					<div class="disc blue disc4">
+						<div class="line"></div>
+						<div class="line bot"></div>
+						<span class="txt futura_bold">
+							<i class="georgia">фото автоматически определяется нашим принтером</i>
+						</span>
+					</div>
+					<div class="disc blue disc5">
+						<div class="line"></div>
+						<div class="line bot"></div>
+						<span class="txt futura_bold">
+							<i class="georgia">Гость получает брендированную фотокарточку</i>
+						</span>
+					</div>
+				</div>
+				
+			</section>
+		</div>
+
+
+        
+
+<div class="separator"></div>
+
+		<section class="comments_wrap">
+			<h1 class="sp_1 futura_bold">НАШИ КЛИЕНТЫ О НАС:</h1>
+			<div class="comments_list res">
+				<div class="item clear_self">
+					<img src="images/no_avatar.png" alt="">
+					<div class="georgia">
+						Просто отличное агентство. Очень понравилась наша девушка менеджер, сразу видно что опытная, умеет общаться с клиентами. Очень вам благодарна, за качество и выполнение договоренностей.
+					</div>
+				</div>
+				<div class="item right clear_self">
+					<img src="images/no_avatar.png" alt="">
+					<div class="georgia">
+						Все было супер. Спасибо ребята. Особенно нашему менеджеру, которого я <br> доставала порой в позднее время, всегда вежливо мне все рассказывал.  Одним словом, молодцы!
+					</div>
+				</div>
+				<div class="item clear_self">
+					<img src="images/no_avatar.png" alt="">
+					<div class="georgia">
+						Отличное агентство. Боялась что дам залог, а нас обманут, или чего другого. Но договор который мы составили на месте, меня порадовал. Все было узаконено.
+					</div>
+				</div>
+				<div class="item right clear_self">
+					<img src="images/no_avatar.png" alt="">
+					<div class="georgia">
+						Агенство порекомендовали знакомые, которых обслужили на высоком уровне. Можем подтвердить, что работают отлично. Успехов Вам  в работе ! Айрат
+					</div>
+				</div>
+				<div class="item clear_self">
+					<img src="images/no_avatar.png" alt="">
+					<div class="georgia">
+						Заказывала фотосессию, в назначенный  день пошел дождь. Поменяли дату без проблем и доплат . Спасибо за человеческое отношение и понимание. Рекомендую своим подругам. Вероника. 
+					</div>
+				</div>
+				<div class="item right clear_self">
+					<img src="images/no_avatar.png" alt="">
+					<div class="georgia">
+						Отличное агенство! Я сделал предложение своей девушке  в ее День Рождения когда мы катались на кабриолете по городу. На свадьбу будем заказывать автомобиль  только у них.  Спасибо! И до встречи снова)
+					</div>
+				</div>
+
+				<span class="but pink futura_bold popup_t" data-name="f2">ОСТАВИТЬ ОТЗЫВ</span>
+				<div class="popup_bg"></div>
+				<div class="popup f2">
+					<div class="name futura_bold">ОСТАВЬТЕ СВОЙ ОТЗЫВ</div>
+					<form action="index1.php" method="post">
+						<input type="text" name="name" class="inpit_text bbox" placeholder="Введите Ваше имя*">
+						<input type="text" name="addres" class="inpit_text bbox" placeholder="Введите e-mail*">
+						<textarea name="phone" class="pie pt_sans textarea bbox" placeholder="Введите комментарий:"></textarea>
+
+				        <div id="wrapper">
+				            <input id="File1" type="file" value="" > 
+				        </div>
+						<script type="text/javascript" src="scripts/file_input.js"></script>
+
+						<input type="submit" value="ОТПРАВИТЬ"  class="but pink" >
+					</form>
+				</div>
+				
+			</div>
+		</section>
+
+    <div class="clear_inside"></div>
 </div>
+<footer class="footer">
+	<div class="res">
+		<div class="activity">
+			Позвони нам!
+			<div class="copyright">2013 &copy; Все права защищены</div>
+		</div>
+		<a href="#a" class="intro site_name"><span class="georgia">InstaPrinter</span>Samara</a>
+		<div class="phone_top phone_b pt_bold">
+			+7 987 950 0392
+			
+			<div class="popup_bg"></div>
+			<div class="popup f1">
+				<div class="name futura_bold">ЗАПОЛНИТЕ ФОРМУ И МЫ ВАМ ОБЯЗАТЕЛЬНО ПЕРЕЗВОНИМ </div>
+				<form action="index1.php" method="post">
+					<input type="text" name="name" class="inpit_text bbox" placeholder="Введите Ваше имя*">
+					<input type="text" name="phone" class="inpit_text bbox" placeholder="Введите телефон*">
+					<input type="submit" value="ОТПРАВИТЬ"  class="but pink" >
+				</form>
+			</div>
+
+		</div>
+	</div>
+</footer><!--footer-->
+
+<a href="#a" class="button totop" data-rel="#body"></a>
 
 </body>
+
+<script type="text/javascript" src="scripts/jquery.countdown.js"></script>
+
+<script type="text/javascript">
+    $(function(){
+        $('#counter1').countMe(parseInt($('#counter1').data().year), parseInt($('#counter1').data().month)-1, parseInt($('#counter1').data().day), '#counter1');
+        $('#counter2').countMe(parseInt($('#counter2').data().year), parseInt($('#counter2').data().month)-1, parseInt($('#counter2').data().day), '#counter2');
+        $('#counter3').countMe(parseInt($('#counter3').data().year), parseInt($('#counter3').data().month)-1, parseInt($('#counter3').data().day), '#counter3');
+    })
+</script>
+<!-- c.d.c -->
 </html>
