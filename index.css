@@ -1,6 +1,6 @@
 div#container
 {
-   width: 1023px;
+   width: 1368px;
    position: relative;
    margin-top: 0px;
    margin-left: auto;
@@ -16,10 +16,6 @@ body
    background-color: #F1F3F2;
    color: #000000;
 }
-#indexLayer1
-{
-   background-color: #5A4451;
-}
 #wb_indexText1 
 {
    background-color: transparent;
@@ -31,43 +27,273 @@ body
 {
    text-align: left;
 }
-#wb_indexText2 div
+#RollOver3 .image_container
+{
+   width: 180px;
+   height: 180px;
+   -webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+   -ms-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+   -webkit-transition: 500ms;
+   -moz-transition: 500ms;
+   -ms-transition: 500ms;
+   transition: 500ms;
+}
+#RollOver3:hover .image_container
+{
+   -webkit-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   -moz-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   -ms-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+#RollOver3 .front, #RollOver3 .back
+{
+   position: absolute;
+}
+#RollOver3 img
+{
+   border-width: 0;
+   width: 180px;
+   height: 180px;
+}
+#RollOver3 .back
+{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   z-index: 1;
+   -webkit-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   -moz-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   -ms-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+#RollOver3 .front
+{
+   z-index: 2;
+}
+#RollOver3:hover .front
+{
+   z-index: 0;
+}
+#RollOver1 .image_container
+{
+   width: 180px;
+   height: 180px;
+   -webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+   -ms-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+   -webkit-transition: 500ms;
+   -moz-transition: 500ms;
+   -ms-transition: 500ms;
+   transition: 500ms;
+}
+#RollOver1:hover .image_container
+{
+   -webkit-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   -moz-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   -ms-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+#RollOver1 .front, #RollOver1 .back
+{
+   position: absolute;
+}
+#RollOver1 img
+{
+   border-width: 0;
+   width: 180px;
+   height: 180px;
+}
+#RollOver1 .back
+{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   z-index: 1;
+   -webkit-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   -moz-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   -ms-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+#RollOver1 .front
+{
+   z-index: 2;
+}
+#RollOver1:hover .front
+{
+   z-index: 0;
+}
+#RollOver2 .image_container
+{
+   width: 180px;
+   height: 180px;
+   -webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+   -ms-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+   -webkit-transition: 500ms;
+   -moz-transition: 500ms;
+   -ms-transition: 500ms;
+   transition: 500ms;
+}
+#RollOver2:hover .image_container
+{
+   -webkit-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   -moz-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   -ms-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+#RollOver2 .front, #RollOver2 .back
+{
+   position: absolute;
+}
+#RollOver2 img
+{
+   border-width: 0;
+   width: 180px;
+   height: 180px;
+}
+#RollOver2 .back
+{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   z-index: 1;
+   -webkit-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   -moz-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   -ms-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+   transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+#RollOver2 .front
+{
+   z-index: 2;
+}
+#RollOver2:hover .front
+{
+   z-index: 0;
+}
+#wb_indexText3 
+{
+   background-color: transparent;
+   border: 0px #3CB371 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_indexText3 div
 {
    text-align: left;
 }
-#indexLayer3
+#indexLayer2
 {
-   background-color: #FFD700;
-   background-image: url(images/trenings-after.png);
-   background-repeat: no-repeat;
-   background-position: left top;
+   background-color: #5A4451;
 }
-#wb_indexText8 
+#indexImage1
+{
+   border: 0px #000000 solid;
+}
+#indexImage2
+{
+   border: 0px #000000 solid;
+}
+#indexImage3
+{
+   border: 0px #000000 solid;
+}
+#indexImage4
+{
+   border: 0px #000000 solid;
+}
+#indexImage6
+{
+   border: 0px #000000 solid;
+}
+#indexImage25
+{
+   border: 0px #000000 solid;
+}
+#wb_indexText21 
 {
    background-color: transparent;
    border: 0px #000000 solid;
    padding: 0;
    text-align: left;
 }
-#wb_indexText8 div
+#wb_indexText21 div
 {
    text-align: left;
 }
-#wb_indexText9 
+#wb_indexText32 
 {
    background-color: transparent;
    border: 0px #000000 solid;
    padding: 0;
+   text-align: center;
+}
+#wb_indexText32 div
+{
+   text-align: center;
+}
+#wb_indexText24 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: center;
+}
+#wb_indexText24 div
+{
+   text-align: center;
+}
+#wb_indexText22 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: center;
+}
+#wb_indexText22 div
+{
+   text-align: center;
+}
+#wb_indexText25 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: center;
+}
+#wb_indexText25 div
+{
+   text-align: center;
+}
+#wb_indexText26 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: center;
+}
+#wb_indexText26 div
+{
+   text-align: center;
+}
+#wb_indexText27 
+{
+   background-color: transparent;
+   border: 0px #3CB371 solid;
+   padding: 0;
    text-align: left;
 }
-#wb_indexText9 div
+#wb_indexText27 div
 {
    text-align: left;
 }
 #wb_indexText10 
 {
    background-color: transparent;
-   border: 0px #000000 solid;
+   border: 0px #3CB371 solid;
    padding: 0;
    text-align: left;
 }
@@ -78,7 +304,7 @@ body
 #wb_indexText11 
 {
    background-color: transparent;
-   border: 0px #000000 solid;
+   border: 0px #3CB371 solid;
    padding: 0;
    text-align: left;
 }
@@ -89,7 +315,7 @@ body
 #wb_indexText12 
 {
    background-color: transparent;
-   border: 0px #000000 solid;
+   border: 0px #3CB371 solid;
    padding: 0;
    text-align: left;
 }
@@ -100,7 +326,7 @@ body
 #wb_indexText13 
 {
    background-color: transparent;
-   border: 0px #000000 solid;
+   border: 0px #3CB371 solid;
    padding: 0;
    text-align: left;
 }
@@ -108,199 +334,152 @@ body
 {
    text-align: left;
 }
-#indexPhotoGallery1
+#wb_Text3 
 {
-   border-spacing: 3px;
-   width: 100%;
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
 }
-#indexPhotoGallery1 .figure
+#wb_Text3 div
 {
-   padding: 0px 0px 0px 0px;
-   text-align: center;
-   vertical-align: top;
+   text-align: left;
 }
-#indexPhotoGallery1 .figure img
+#wb_indexTextMenu1
 {
-   border-width: 0;
+   background-color: transparent;
+   color :#FFF5EE;
+   font-family: Arial;
+   font-size: 24px;
+}
+#wb_indexTextMenu1 span
+{
+   margin: 0px 0px 0px 50px;
+}
+#indexImage5
+{
+   border: 0px #000000 solid;
+}
+#indexLayer3
+{
+   background-color: #F1F3F2;
+}
+#wb_indexText5 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_indexText5 div
+{
+   text-align: left;
+}
+#wb_indexText4 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_indexText4 div
+{
+   text-align: left;
+}
+#indexImage7
+{
+   border: 0px #000000 solid;
+}
+#indexLayer1
+{
+   background-color: #5A4451;
+}
+#wb_indexText2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_indexText2 div
+{
+   text-align: left;
+}
+#wb_indexText6 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: justify;
+}
+#wb_indexText6 div
+{
+   text-align: justify;
+}
+#wb_indexText7 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: justify;
+}
+#wb_indexText7 div
+{
+   text-align: justify;
+}
+#indexLayer8
+{
+   background-color: #5A4451;
+}
+#indexImage9
+{
+   border: 0px #000000 solid;
+}
+#indexImage11
+{
+   border: 0px #000000 solid;
+}
+#wb_indexText8 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: justify;
+}
+#wb_indexText8 div
+{
+   text-align: justify;
+}
+#wb_indexText9 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: justify;
+}
+#wb_indexText9 div
+{
+   text-align: justify;
 }
 #wb_indexText14 
 {
    background-color: transparent;
    border: 0px #000000 solid;
    padding: 0;
-   text-align: center;
+   text-align: justify;
 }
 #wb_indexText14 div
 {
-   text-align: center;
-}
-#indexImage10
-{
-   border: 0px #000000 solid;
-}
-#indexLayer4
-{
-   background-color: #F6F2CA;
-}
-#indexLayer5
-{
-   background-color: transparent;
-   background-image: url(images/rewivs-after.png);
-   background-repeat: repeat-x;
-   background-position: left top;
+   text-align: justify;
 }
 #wb_indexText15 
 {
    background-color: transparent;
    border: 0px #000000 solid;
    padding: 0;
-   text-align: center;
+   text-align: left;
 }
 #wb_indexText15 div
 {
-   text-align: center;
-}
-#indexImage11
-{
-   border-width: 0;
-}
-#wb_indexText16 
-{
-   background-color: transparent;
-   border: 0px #000000 solid;
-   padding: 0;
-   text-align: center;
-}
-#wb_indexText16 div
-{
-   text-align: center;
-}
-#wb_indexText17 
-{
-   background-color: transparent;
-   border: 0px #000000 solid;
-   padding: 0;
-   text-align: center;
-}
-#wb_indexText17 div
-{
-   text-align: center;
-}
-#indexLayer6
-{
-   background-color: #000000;
-}
-#indexLayer7
-{
-   background-color: transparent;
-   background-image: url(images/footer-after.png);
-   background-repeat: repeat;
-   background-position: left top;
-}
-#wb_indexText18 
-{
-   background-color: transparent;
-   border: 0px #000000 solid;
-   padding: 0;
    text-align: left;
-}
-#wb_indexText18 div
-{
-   text-align: left;
-}
-#wb_indexText20 
-{
-   background-color: transparent;
-   border: 0px #000000 solid;
-   padding: 0;
-   text-align: left;
-}
-#wb_indexText20 div
-{
-   text-align: left;
-}
-#indexImage9
-{
-   border-width: 0;
-}
-#indexImage8
-{
-   border-width: 0;
-}
-#indexImage7
-{
-   border-width: 0;
-}
-#indexImage12
-{
-   border-width: 0;
-}
-#indexImage13
-{
-   border-width: 0;
-}
-#indexImage5
-{
-   border: 0px #000000 solid;
-}
-#wb_indexForm4
-{
-   background-color: transparent;
-   border: 0px #000000 solid;
-}
-#indexEditbox3
-{
-   border: 1px #A9A9A9 solid;
-   -moz-border-radius: 3px;
-   -webkit-border-radius: 3px;
-   border-radius: 3px;
-   background-color: #FFFFFF;
-   color :#000000;
-   font-family: Arial;
-   font-size: 19px;
-   padding: 0px 0px 0px 20px;
-   text-align: left;
-   vertical-align: middle;
-}
-#indexEditbox8
-{
-   border: 1px #A9A9A9 solid;
-   -moz-border-radius: 3px;
-   -webkit-border-radius: 3px;
-   border-radius: 3px;
-   background-color: #FFFFFF;
-   color :#000000;
-   font-family: Arial;
-   font-size: 19px;
-   padding: 0px 0px 0px 20px;
-   text-align: left;
-   vertical-align: middle;
-}
-#indexButton1
-{
-   border: 0px #A9A9A9 solid;
-   background-color: #74BDB4;
-   background: -moz-linear-gradient(bottom,#74BDB4 0%,#74BDB4 100%);
-   background: -webkit-linear-gradient(bottom,#74BDB4 0%,#74BDB4 100%);
-   background: -o-linear-gradient(bottom,#74BDB4 0%,#74BDB4 100%);
-   background: -ms-linear-gradient(bottom,#74BDB4 0%,#74BDB4 100%);
-   background: linear-gradient(bottom,#74BDB4 0%,#74BDB4 100%);
-   color: #F5F5F5;
-   font-family: 'PT Sans Narrow';
-   font-weight: bold;
-   font-size: 21px;
-}
-#indexEditbox1
-{
-   border: 1px #A9A9A9 solid;
-   -moz-border-radius: 3px;
-   -webkit-border-radius: 3px;
-   border-radius: 3px;
-   background-color: #FFFFFF;
-   color :#000000;
-   font-family: Arial;
-   font-size: 19px;
-   padding: 0px 0px 0px 20px;
-   text-align: left;
-   vertical-align: middle;
 }
