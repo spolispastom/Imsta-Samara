@@ -149,7 +149,7 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 .activity {position: absolute; top: 65px; left: 0; right: 0; text-align: center; color: #ff9c95; font-size: 30px;}
 
 .phone_top {
-	position: absolute; top: 24px; right: 0; text-align: right;
+	position: absolute; top: 50px; right: 0; text-align: right;
 	font-size: 21px; color: #7d7d7d;
 }
 
