@@ -40,7 +40,15 @@ h6                { font-size: 11px; margin: 1.67em 0;}
 body, input, select, button, textarea
 				  { font-family: Arial, Helvetica, sans-serif;}
 html 			  { overflow-y: scroll; height:100%; min-width:980px;}
-body 			  { background: #FFF; text-align: left; line-height: 1.2; font-size: 13px; color: #63554d; position:relative; height:100%;}
+body 			  {
+	background: #FFF;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 30%;
+	color: #63554d;
+	position:relative;
+	height:100%;
+}
 a           	  { color: #0088cc; text-decoration: underline;}
 a:hover 		  { text-decoration: none;}
 img 			  { border: none;}
@@ -178,7 +186,8 @@ box-size: content-box; width=1200;
 }
 .navigation_top .upm {}
 .navigation_top .upm li {
-	float: left; width: 25%;
+	float: left;
+	width: 33%;
 	background: url(../images/mark_upm.png) 0 50% no-repeat;
 }
 .navigation_top .upm li a {
@@ -193,10 +202,17 @@ box-size: content-box; width=1200;
 }
 .navigation_top .upm li a:hover {
 	background: #ed6d75;
+	width: 300px;
 }
-.navigation_top .upm li:first-child {background: none;}
+.navigation_top .upm li:first-child {
+	background: none;
+	width: 34%;
+}
 .navigation_top .upm li:first-child a {margin-left: 0;}
-.navigation_top .upm li:last-child a {margin-right: 0;}
+.navigation_top .upm li:last-child a {
+	margin-right: 0;
+	width: 300px;
+}
 
 
 
@@ -314,7 +330,13 @@ box-size: content-box; width=1200;
 
 /*(box 4)*/
 
-.this-box4 {padding: 33px 0 0; background: url(../images/separator.png) center top no-repeat; overflow: hidden; position: relative; margin: 0 0 44px;}
+.this-box4 {
+	padding: 33px 0 0;
+	background: url(../images/separator.png) center top no-repeat;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+}
 .this-box4 > .this-box4_inside {position: relative; float: left; clear: left; left: 50%; margin-left: -2000px; width: 4000px; text-align: center;}
 
 /*(/box 4)*/
