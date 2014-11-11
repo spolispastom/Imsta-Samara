@@ -261,10 +261,7 @@ box-size: content-box; width=1200;
 
 /*(box 2)*/
 
-.this-box2 {
-	padding: 57px 0 0;
-	background: url(../images/separator.png) center 12px no-repeat;
-}
+.this-box2 {padding: 47px 0 0; background: url(../images/separator.png) center 12px no-repeat;}
 
 	.this-box2-left {
 	float: left;
