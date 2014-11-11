@@ -362,7 +362,15 @@ box-size: content-box; width=1200;
 
 /*(box6)*/
 
-.box6 {text-align: center; padding: 0px 0 0; font-size: 25px; line-height: 32px; color: #7b7b7b; font-family: 'AG_FuturaRegular'; height: 210px;}
+.box6 {
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+	line-height: 32px;
+	color: #7b7b7b;
+	font-family: 'AG_FuturaRegular';
+	height: 210px;
+}
 
 .box6:first-line {font-size: 30px; line-height: 47px; color: #78d1ca;}
 
