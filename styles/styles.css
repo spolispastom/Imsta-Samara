@@ -23,7 +23,9 @@ sub               { bottom: -0.25em; }
 ins               { text-decoration: none;}
 p, pre,
 blockquote, ul, ol, dl            
-				  { margin: 1em 0;}
+				  {
+	margin: 0;
+}
 blockquote        { margin-left: 40px; margin-right: 40px;}
 ol, ul, dd        { margin-left: 40px;}
 pre, code, 
@@ -491,7 +493,12 @@ h1.sp_1 {margin-bottom: 45px; color: #ff9c95; font-size: 30px; text-align: cente
     box-shadow: 1px 2px 2px #d4d4d4;
 }
 
-.comments_list .item .georgia {overflow: hidden; font-size: 20px; color: #888; padding-top: 20px;}
+.comments_list .item .georgia {
+	overflow: hidden;
+	font-size: 20px;
+	color: #888;
+	padding-top: 0px;
+}
 
 .comments_list .item.right img {margin-left: 23px; margin-right: 0; float: right;}
 .comments_list .item.right .georgia {text-align: right;}
