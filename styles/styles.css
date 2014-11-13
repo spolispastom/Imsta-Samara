@@ -369,7 +369,7 @@ box-size: content-box; width=1200;
 .this-box5 {
 	position: relative;
 	background: url(../images/box5bg.png) 0 0 repeat;
-	height: 400px;
+	height: 500px;
 	border-radius: 10px;
 }
 .this-box5 {
@@ -414,7 +414,7 @@ box-size: content-box; width=1200;
 
 .box6 {
 	text-align: center;
-	padding: 12px;
+	padding: 27px;
 	font-size: 25px;
 	line-height: 32px;
 	color: #7b7b7b;
@@ -483,6 +483,17 @@ h1.sp_1 {
 	padding-top: 57px;
 	width: 900px;
 }
+
+h1.sp_2
+{
+	margin-bottom: 30px;
+	color: #ff9c95;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 37px;
+	width: 900px;
+}
+
 .c_b2 {text-align: center; margin-bottom: 40px;}
 .c_b2 .show_block {
  	counter-reset: sh_b 0;
@@ -518,7 +529,12 @@ h1.sp_1 {
 }
 .comments_list {text-align: center;}
 
-.comments_list .item {margin-bottom: 15px; text-align: left; margin-right: 20px; margin-left: 20px;}
+.comments_list .item {
+	margin-bottom: 50px;
+	text-align: left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
 
 .comments_list .item img {
 	float: left; background: #e8e8e8;
@@ -633,7 +649,10 @@ h1.sp_1 {
 /*   /file_input
 *******************************/
 
-
+.partner
+{
+	margin: 19px;
+}
 .slider_2 {height: 440px; width: 610px; margin: 0 auto; position: relative;}
 
 .slider_2 .sliderArrows a {
