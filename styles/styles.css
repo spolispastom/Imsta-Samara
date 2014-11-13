@@ -10,6 +10,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, 
 	outline: 0;
 	background: transparent;
 	font-size: 100%;
+	margin-top: 0px;
 }
 a                 { margin: 0; padding: 0; font-size: 100%; background: transparent;}
 
@@ -53,7 +54,11 @@ body 			  {
 }
 a           	  { color: #0088cc; text-decoration: underline;}
 a:hover 		  { text-decoration: none;}
-img 			  { border: none;}
+img 			  {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+}
 hr 				  { color: #aaa; background: #aaa; height: 1px; border: none;}
 
 
@@ -182,7 +187,8 @@ box-size: content-box; width=1200;
 
 .navigation_top {
 	box-shadow: 3px 4px 0 #c2c3c3;
-	background: #eaf6f7; margin-bottom: 35px;
+	background: #eaf6f7;
+	margin-bottom: 0px;
 }
 
 .navigation_top > nav {
@@ -281,16 +287,21 @@ box-size: content-box; width=1200;
 
 /*(box 2)*/
 
-.this-box2 {padding: 47px 0 0; background: url(../images/separator.png) center 12px no-repeat;}
+.this-box2 {
+	background: url(../images/separator.png) center 12px no-repeat;
+	width: 900px;
+}
 
 	.this-box2-left {
 	float: left;
 	width: 900px;
 	height: 253px;
-	background: url(../images/reasons.png) 0 0 no-repeat;
 	text-align: center;
 	position: relative;
 	margin-left: 0px;
+	background-image: url(../images/reasons.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 
 		.this-box2-left div {position: absolute; top: 112px; left: 80px; width: 195px; font-size: 31px; line-height: 39px; color: #fff; text-align: center;}
@@ -335,13 +346,23 @@ box-size: content-box; width=1200;
 /*(box 4)*/
 
 .this-box4 {
-	padding: 33px 0 0;
 	background: url(../images/separator.png) center top no-repeat;
 	overflow: hidden;
 	position: relative;
 	margin: 0;
+	width: 900px;
+	margin-top: 17px;
 }
-.this-box4 > .this-box4_inside {position: relative; float: left; clear: left; left: 50%; margin-left: -2000px; width: 4000px; text-align: center;}
+.this-box4 > .this-box4_inside {
+	position: relative;
+	float: left;
+	clear: left;
+	left: 50%;
+	margin-left: -2000px;
+	width: 4000px;
+	text-align: center;
+	margin-top: 37px;
+}
 
 /*(/box 4)*/
 
@@ -456,7 +477,14 @@ box-size: content-box; width=1200;
 .gal ul li:first-child {padding-left: 0;}
 
 
-h1.sp_1 {margin-bottom: 45px; color: #ff9c95; font-size: 30px; text-align: center;}
+h1.sp_1 {
+	margin-bottom: 17px;
+	color: #ff9c95;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 57px;
+	width: 900px;
+}
 .c_b2 {text-align: center; margin-bottom: 40px;}
 .c_b2 .show_block {
  	counter-reset: sh_b 0;
@@ -485,7 +513,11 @@ h1.sp_1 {margin-bottom: 45px; color: #ff9c95; font-size: 30px; text-align: cente
 /* comments
 -------------------------------*/
 
-.comments_wrap {background: #f3f9f9; padding: 16px 0 43px;}
+.comments_wrap {
+	background: #f3f9f9;
+	padding: 0 0 33px;
+	margin-top: 37px;
+}
 .comments_list {text-align: center;}
 
 .comments_list .item {margin-bottom: 15px; text-align: left; margin-right: 20px; margin-left: 20px;}
@@ -626,3 +658,4 @@ h1.sp_1 {margin-bottom: 45px; color: #ff9c95; font-size: 30px; text-align: cente
 
 
 .totop {position: fixed; bottom: 0; right: 10px; width: 53px; height: 72px; background: url(../images/totop.png) 0 0 no-repeat;}
+s
