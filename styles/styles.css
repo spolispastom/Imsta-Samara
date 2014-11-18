@@ -32,7 +32,11 @@ kbd, samp         { font-family: monospace, sans-serif;}
 
 h1,h2,h3,h4,h5,h6 { font-weight: normal;}
 h1                { font-size: 40px; margin: .5em 0; color:#78d1ca;}
-h2                { font-size: 18px; margin: .83em 0;}
+h2                {
+	font-size: 18px;
+	margin: .83em 0;
+	text-align: center;
+}
 h3                { font-size: 16px; margin: 1.0em 0;}
 h4                { font-size: 14px; margin: 1.33em 0;}
 h5                { font-size: 12px; margin: 1.5em 0;}
@@ -257,7 +261,13 @@ box-size: content-box; width=1200;
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5)
 }
 
-
+.h2title
+{
+	padding-top: 57px;
+	line-height: 32px;
+	width: 600px;
+	margin-left: 150px;
+}
 
 
 /*(slider form)*/
@@ -300,6 +310,7 @@ box-size: content-box; width=1200;
 	background-image: url(../images/reasons.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
+	margin-top: 37px;
 }
 
 		.this-box2-left div {position: absolute; top: 112px; left: 80px; width: 195px; font-size: 31px; line-height: 39px; color: #fff; text-align: center;}
@@ -308,7 +319,12 @@ box-size: content-box; width=1200;
 
 	.this-box2-right {float: right; margin: 0 37px 0 0; width: 456px; counter-reset: list 0; position: relative;}
 
-		.this-box2-right .item {font-size: 16px; line-height: 26px; margin: 0 0 17px; position: relative;}
+		.this-box2-right .item {
+	font-size: 16px;
+	line-height: 26px;
+	margin: 0 0 17px;
+	position: absolute;
+}
 
 			.this-box2-right .item:before {counter-increment: list; content: counter(list)"."; position: absolute; left: -38px; top: 50%; width: 38px; height: 26px; margin-top: -13px; font-size: 30px; color: #ff767f; font-family: 'a_FuturaOrtoBold';}
 
@@ -316,52 +332,77 @@ box-size: content-box; width=1200;
 
 /*(box 3)*/
 
-.this-box3 {height: 604px; position: relative; background: url(../images/separator.png) center top no-repeat;}
+.this-box3 {
+	height: 257px;
+	position: relative;
+	padding-top: 37px;
+	width: 900px;
+}
 
-	.this-box3-right {position: absolute; top: 138px; right: 0; width: 284px; height: 285px; background: url(../images/box3-round.png) 0 0 no-repeat; color: #fff;}
-
+	
 		.this-box3-right div {position: absolute; top: 92px; left: 58px; width: 159px; text-align: center; font-size: 30px; line-height: 42px; font-family: 'a_FuturaOrtoBold';}
 
 		.this-box3-right div:first-line {font-family: 'AG_Regular';}
 
-	.this-box3-left {padding: 37px 0 0; position: relative; margin: 0 0 0 -5px; text-align: center;}
+	.this-box3-left {
+	position: absolute;
+	text-align: center;
+	width: 300px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.this-box3-center {
+	position: absolute;
+	text-align: center;
+	width: 300px;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.this-box3-right {
+	position: absolute;
+	text-align: center;
+	width: 300px;
+	margin-left: 600px;
+}
 
-		.this-box3-left div {margin: 0 -10px;}
+.this-box4-left {
+	position: absolute;
+	text-align: center;
+	width: 225px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.this-box4-center-left {
+	position: absolute;
+	text-align: center;
+	width: 225px;
+	margin-left: 225px;
+}
+.this-box4-center-right{
+	position: absolute;
+	text-align: center;
+	width: 225px;
+	margin-left: 450px;
+}
+.this-box4-right {
+	position: absolute;
+	text-align: center;
+	width: 225px;
+	margin-left: 670px;
+	;
+}
 
-		.this-box3-left .item {float: left; width: 182px; height: 283px; font-size: 15px; color: #00a499; line-height: 23px; margin: 0 55px 0 0;}
-
-			.this-box3-left .item img {width: 170px; border-radius: 50%; border: 5px solid #fff; box-shadow: 1px 2px 2px #d4d4d4; margin: 0 0 4px;}
-
-			.this-box3-left .item img {
-				-moz-box-shadow: 1px 2px 2px #d4d4d4;
-				-webkit-box-shadow: 1px 2px 2px #d4d4d4;
-				-o-box-shadow: 1px 2px 2px #d4d4d4;
-				box-shadow: 1px 2px 2px #d4d4d4;
-			}
-
-/*/(box 3)*/
-
+	
 /*(box 4)*/
 
 .this-box4 {
-	background: url(../images/separator.png) center top no-repeat;
-	overflow: hidden;
+	height: 210px;
 	position: relative;
-	margin: 0;
+	padding-top: 37px;
 	width: 900px;
-	margin-top: 17px;
 }
-.this-box4 > .this-box4_inside {
-	position: relative;
-	float: left;
-	clear: left;
-	left: 50%;
-	margin-left: -2000px;
-	width: 4000px;
-	text-align: center;
-	margin-top: 37px;
-}
-
 /*(/box 4)*/
 
 /*(box 5)*/
