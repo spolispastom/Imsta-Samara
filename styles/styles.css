@@ -201,7 +201,7 @@ box-size: content-box; width=1200;
 .navigation_top .upm {}
 .navigation_top .upm li {
 	float: left;
-	width: 33%;
+	width: 300px;
 	background: url(../images/mark_upm.png) 0 50% no-repeat;
 }
 .navigation_top .upm li a {
@@ -220,12 +220,14 @@ box-size: content-box; width=1200;
 }
 .navigation_top .upm li:first-child {
 	background: none;
-	width: 34%;
+	width: 300px;
+	margin: 0;
 }
 .navigation_top .upm li:first-child a {margin-left: 0;}
 .navigation_top .upm li:last-child a {
-	margin-right: 0;
+	margin-right: 0px;
 	width: 300px;
+	margin: 0;
 }
 
 
