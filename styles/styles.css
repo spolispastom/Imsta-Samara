@@ -95,7 +95,9 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 .content_body:after { content: '.'; display: block; clear: both; height: 0; visibility: hidden;}
 
 .res {
-	width: 940px; margin-left: auto; margin-right: auto;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .bbox,
 .res {
@@ -398,7 +400,7 @@ box-size: content-box; width=1200;
 /*(box 4)*/
 
 .this-box4 {
-	height: 210px;
+	height: 240px;
 	position: relative;
 	padding-top: 37px;
 	width: 900px;
