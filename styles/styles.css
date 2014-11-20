@@ -159,10 +159,17 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 	padding-top: 40px;
 }
 
-.footer { min-height: 162px; background: #e9e9e9; 
-box-size: content-box; width=1200;
+.footer {
+	min-height: 162px;
+	background: #e9e9e9;
+	box-size: content-box;
+width=1200;
+	margin-top: 50px;
 }
-.footer .res {height: 162px; position: relative;}
+.footer .res {
+	height: 162px;
+	position: relative;
+}
 
 /* header
 -------------------------------*/
