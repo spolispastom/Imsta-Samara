@@ -658,7 +658,9 @@ h1.sp_2
 	top: 28px;
 	color: #7b7b7b;
 }
-.footer .phone_b {top: 45px;}
+.footer .phone_b {
+	top: 20px;
+}
 
 
 
