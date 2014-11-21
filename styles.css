@@ -177,7 +177,8 @@ width=1200;
 	background: url(images/mark_upm.png) 0 50% no-repeat;
 }
 .navigation_top .upm li a {
-	width:300px;
+	width:290px;
+	margin-left:10px;;
 	text-align: center;
 	display: block; height: 50px; line-height: 50px;
 	font-size: 16px; color: #fff; text-decoration: none;
@@ -189,9 +190,9 @@ width=1200;
 }
 .navigation_top .upm li a:hover {
 	background: #ed6d75;
-	margin-left:20px;
-	margin-right:10px;
-	width: 270px;
+	margin-left:15px;
+	margin-right:5px;
+	width: 280px;
 }
 .navigation_top .upm li:first-child {
 	background: none;
