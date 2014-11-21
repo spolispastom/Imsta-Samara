@@ -28,7 +28,7 @@ blockquote, ul, ol, dl
 blockquote        { margin-left: 40px; margin-right: 40px;}
 ol, ul, dd        { margin-left: 40px;}
 pre, code, 
-kbd, samp         { font-family: monospace, sans-serif;}
+kbd, samp         { foƒ√nt-family: monospace, sans-serif;}
 
 h1,h2,h3,h4,h5,h6 { font-weight: normal;}
 h1                { font-size: 40px; margin: .5em 0; color:#78d1ca;}
@@ -220,7 +220,8 @@ width=1200;
 	background: url(../images/mark_upm.png) 0 50% no-repeat;
 }
 .navigation_top .upm li a {
-	margin-left: 15px; margin-right: 5px; text-align: center;
+	width:300px;
+	text-align: center;
 	display: block; height: 50px; line-height: 50px;
 	font-size: 16px; color: #fff; text-decoration: none;
 	text-shadow: 1px 1px 3px #ca4a50;
@@ -231,18 +232,13 @@ width=1200;
 }
 .navigation_top .upm li a:hover {
 	background: #ed6d75;
-	width: 300px;
+	margin-left:20px;
+	margin-right:10px;
+	width: 270px;
 }
 .navigation_top .upm li:first-child {
 	background: none;
 	width: 300px;
-	margin: 0;
-}
-.navigation_top .upm li:first-child a {margin-left: 0;}
-.navigation_top .upm li:last-child a {
-	margin-right: 0px;
-	width: 300px;
-	margin: 0;
 }
 
 
@@ -531,7 +527,7 @@ width=1200;
 .head_logo
 {
 	margin-left: 10px;
-	margin-top: 10px;
+	margin-top: 30px;
 }
 
 
