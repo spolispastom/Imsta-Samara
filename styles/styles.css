@@ -174,9 +174,17 @@ width=1200;
 /* header
 -------------------------------*/
 .site_name {
-	position: absolute; top: 30px; left: 0; text-align: center;
-	padding-bottom: 30px; background: url(../images/logo.png) 50% 100% no-repeat;
-	font-size: 30px; color: #7b7b7b; text-decoration: none; margin-left: 20px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	text-align: center;
+	padding-bottom: 30px;
+	background: url(../images/logo.png) 50% 100% no-repeat;
+	font-size: 30px;
+	color: #7b7b7b;
+	text-decoration: none;
+	margin-left: 20px;
+	background-image: url(images/logo.png);
 }
 .site_name .georgia {font-style: italic; font-size: 25px; display: block;}
 
@@ -515,7 +523,16 @@ width=1200;
 /*/(box6)*/
 
 
-
+.footer_logo
+{
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.head_logo
+{
+	margin-left: 10px;
+	margin-top: 10px;
+}
 
 
 /* content
