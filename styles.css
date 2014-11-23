@@ -452,3 +452,12 @@ h1.sp_1 {
 	margin-left: auto;
 	text-align: center;
 	}
+	
+	.back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 28px;;
+    font-size: 12px;
+    display: none;
+	
+}

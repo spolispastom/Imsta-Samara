@@ -21,6 +21,25 @@
     <script type="text/javascript" src="scripts/mobilyslider.js"></script>
 	<script type="text/javascript" src="scripts/scripts.js"></script>
 	<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.3.1-min.js"></script>
+     <script>            
+			jQuery(document).ready(function() {
+				var offset = 220;
+				var duration = 500;
+				jQuery(window).scroll(function() {
+					if (jQuery(this).scrollTop() > offset) {
+						jQuery('.back-to-top').fadeIn(duration);
+					} else {
+						jQuery('.back-to-top').fadeOut(duration);
+					}
+				});
+				
+				jQuery('.back-to-top').click(function(event) {
+					event.preventDefault();
+					jQuery('html, body').animate({scrollTop: 0}, duration);
+					return false;
+				})
+			});
+		</script>
 </head>
 
 <body class="futura">
@@ -73,8 +92,9 @@
 	    	</div>
     	</div>
     </div>
+    
 
-	<div class="container clear_self res">
+<div class="container clear_self res">
 <div class="this-box2 clear_self">
   <h1 class="sp_1 futura_bold" >InstaPrinter&nbsp;&mdash; это уникальный сервис для моментальной печати фотографий из&nbsp;популярного сервиса Instagram</h1>
   </div>
@@ -205,8 +225,11 @@
    на любое мероприятие в Самаре и Самарской области</h1>
         </div><div class="this-box2 clear_self" style="height:37px;"></div>
 
+<a href="#" class="back-to-top" style="display: inline;"><img src="images/totop.png" width="53" height="72"></a>
+
+
 <footer class="footer">
-	<div class="res">
+<div class="res">
 		<div class="activity" >Мы в социальных сетях
 		  <div>
             <a href="https://vk.com/public80900586"><img class="spict" src="images/vk.png" width="50" height="50" alt="vk"></a>
@@ -227,6 +250,7 @@
 	  </div>
 	</div>
 </footer><!--footer-->
+
 
 <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter27150218 = new Ya.Metrika({id:27150218, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/27150218" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
 </body>
