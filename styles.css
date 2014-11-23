@@ -415,21 +415,27 @@ h1.sp_1 {
 .prise_col0{
 	text-align: right;
 	width: auto;
+	min-width: 30px;
 }
 .prise_col1{
+	text-align: center;
+	width: 70px;
+	;
+}
+.prise_col2{
 	width: 37px;
 	text-align:  center;
 }
-.prise_col2{
-	width: 70px;
+.prise_col3{
+	width: 90px;
 	text-align:  center;
-}.prise_col3{
+}.prise_col4{
 	width: auto;
 	text-align:  left;
 }text-align:  right;
 }
-.prise_col22{
-	width: 70px;
+.prise_col32{
+	width: 80px;
 	text-align:  center;
 }
 .prise_title
