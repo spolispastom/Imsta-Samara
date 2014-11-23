@@ -87,7 +87,10 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
-.futura {font-family: 'AG_FuturaRegular';}
+.futura {
+	font-family: 'AG_FuturaRegular';
+	padding-bottom: 37px;
+}
 .futura_bold {font-family: 'a_FuturaOrtoBold';}
 .pt_sans {font-family: 'PTSansRegular';}
 .pt_bold {font-family: 'PTSansBold';}
@@ -99,15 +102,17 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 -------------------------------*/
 .container:after,
 .wrapper:after {content: ''; display: block; clear: both;}
-.wrapper:after {height: 162px;}
+.wrapper:after {height: 0px;}
 .header    { min-height: 140px; position: relative;}
 .container  { padding-top: 40px; }
 .footer {
-	min-height: 162px;
 	background: #e9e9e9;
 	box-size: content-box;
 width=1200;
-	margin-top: 50px;
+	margin-top: 27px;
+	margin-bottom: 0px;
+	width: 900px;
+	height: 162px;
 }
 .footer .res {
 	height: 162px;
@@ -275,12 +280,11 @@ width=1200;
 .this-box5 {
 	position: relative;
 	background: url(images/box5bg.png) 0 0 repeat;
-	height: 700px;
 	border-radius: 10px;
 	margin-top: 27px;
-	padding-top: 1px;
-}
-.this-box5 {
+	padding-top:1px;
+	padding-bottom: 27px;
+	margin-bottom:27px;
 	-moz-box-shadow:0 2px 3px #e6e6e6;
 	-webkit-box-shadow:0 2px 3px #e6e6e6;
 	-o-box-shadow:0 2px 3px #e6e6e6;
@@ -294,7 +298,6 @@ width=1200;
 	line-height: 32px;
 	color: #7b7b7b;
 	font-family: 'AG_FuturaRegular';
-	height: 210px;
 	width: 400px;
 	position: absolute;
 	padding-left: 27px;
@@ -306,7 +309,6 @@ width=1200;
 	line-height: 32px;
 	color: #7b7b7b;
 	font-family: 'AG_FuturaRegular';
-	height: 210px;
 	width: 400px;
 	position: relative;
 	margin-left: 450px;
@@ -328,10 +330,13 @@ width=1200;
 .fl:first-line {font-size: 30px; line-height: 47px; color: #78d1ca;}
 
 .box6_title
-{font-size: 25px;
+{
+	font-size: 25px;
 	line-height: 32px;
 	color: #7b7b7b;
 	font-family: 'AG_FuturaRegular';
+	text-align: center;
+	padding-top: 0px;
 	}
 
 .footer_logo
@@ -398,3 +403,46 @@ h1.sp_1 {
 	margin-right: 15px;
 }
 .partner{margin: 19px;}
+
+/*prise*/
+.prise_table{
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	text-align: center;
+}
+.prise_col0{
+	text-align: right;
+	width: auto;
+}
+.prise_col1{
+	width: 37px;
+	text-align:  center;
+}
+.prise_col2{
+	width: 70px;
+	text-align:  center;
+}.prise_col3{
+	width: auto;
+	text-align:  left;
+}text-align:  right;
+}
+.prise_col22{
+	width: 70px;
+	text-align:  center;
+}
+.prise_title
+{
+	font-size: 30px;
+	line-height: 47px;
+	color: #78d1ca;
+	font-family: 'AG_FuturaRegular';
+	text-align: center;
+	height: 50px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	text-align: center;
+	}
