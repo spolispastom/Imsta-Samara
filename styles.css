@@ -177,9 +177,8 @@ width=1200;
 	width: 300px;
 }
 .top_slider {
-	height: 300px;
 	position: relative;
-	padding-top: 47px;
+	height: 506px;
 }
 .top_slider:after {
 	display: block; content: '';
