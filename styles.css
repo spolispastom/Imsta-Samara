@@ -176,7 +176,11 @@ width=1200;
 	background: none;
 	width: 300px;
 }
-.top_slider {height: 562px; position: relative;}
+.top_slider {
+	height: 300px;
+	position: relative;
+	padding-top: 47px;
+}
 .top_slider:after {
 	display: block; content: '';
 	height: 10px; position: absolute; top: -10px; left: 0; right: 0;
